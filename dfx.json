@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "fusion_backend": {
+      "main": "src/fusion_backend/main.mo",
+      "type": "motoko"
+    },
+    "fusion_frontend": {
+      "dependencies": [
+        "fusion_backend"
+      ],
+      "source": [
+        "src/fusion_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "fusion_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
