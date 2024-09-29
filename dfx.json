@@ -2,7 +2,12 @@
   "canisters": {
     "fusion_backend": {
       "main": "src/fusion_backend/main.mo",
-      "type": "motoko"
+      "type": "motoko",
+      "candid": {
+        "access_control": {
+          "allow_origins": ["http://localhost:3000"]
+        }
+      }
     },
     "fusion_frontend": {
       "dependencies": [
