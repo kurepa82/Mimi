@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # `fusion`
 
 Welcome to your new `fusion` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
@@ -84,4 +83,4 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para má
 Si tienes preguntas o sugerencias, no dudes en contactarnos en belentorr28@gmail.com
 
 ¡Gracias por visitar nuestro proyecto y por tu interés en mejorar la vida de las mascotas!
->>>>>>> 3db4a2fee846792e7b74bbde269dbeb9cb404138
+
